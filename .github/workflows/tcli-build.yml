@@ -1,0 +1,20 @@
+name: Thunderstore publish
+run-name: 
+on:
+  release:
+    types: [published]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      # Use checkout to publish the files in your repo
+      - uses: actions/checkout@v3
+      - uses: GreenTF/upload-thunderstore-package@v4.3
+        with:
+          namespace: neahyu_friends
+          token: ${{ secrets.THUNDERSTORE_TOKEN }}
+          version: ${{ github.ref_name }}
+          community: lethal-company
+          repo: thunderstore.io
+          categories: |
+            modpacks

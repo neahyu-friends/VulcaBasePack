@@ -1,0 +1,22 @@
+{
+    "name": "VulcaBasePack",
+    "version_number": "1.0.10",
+    "website_url": "https://github.com/neahyu-friends/VulcaBasePack",
+    "description": "Take my (base) modpack",
+    "dependencies": [
+        "AllToasters-SpectateEnemies-2.2.1",
+        "anormaltwig-LateCompany-1.0.10",
+        "Renegades-FlashlightToggle-1.5.0",
+        "notnotnotswipez-MoreCompany-1.7.4",
+        "RickArg-Helmet_Cameras-2.1.5",
+		"Pooble-LCBetterSaves-1.7.2",
+		"AlexCodesGames-AdditionalSuits-2.0.0",
+		"x753-More_Suits-1.4.1",
+		"Hexnet111-SuitSaver-1.1.4",
+		"Sligili-More_Emotes-1.3.3",
+		"FlipMods-TooManyEmotes-1.7.15",
+		"DeathGOD7-LCItemValue-1.0.0",
+		"tinyhoot-ShipLoot-1.0.0",
+		"AMRV-LethalCompanyVariables-1.6.0"
+    ]
+}
