@@ -19,14 +19,14 @@ jobs:
         with:
           name: ${{ github.event.repository.name }}-${{ github.ref_name }}
           path: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip
-      #- uses: GreenTF/upload-thunderstore-package@v4.3
-      #  with:
-      #    namespace: neahyu_friends
+      - uses: GreenTF/upload-thunderstore-package@v4.3
+        with:
+          namespace: neahyu_friends
       #    name: VulcaBasePack
-      #    token: ${{ secrets.THUNDERSTORE_TOKEN }}
+          token: ${{ secrets.THUNDERSTORE_TOKEN }}
       #    version: ${{ github.ref_name }}
-      #    community: lethal-company
-      #    repo: thunderstore.io
-      #    file: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip 
-      #    categories: |
-      #      modpacks
+          community: lethal-company
+          repo: thunderstore.io
+          file: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip 
+          categories: |
+            modpacks
