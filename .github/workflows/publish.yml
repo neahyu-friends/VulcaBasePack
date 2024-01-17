@@ -2,12 +2,15 @@ name: Thunderstore publish
 run-name: 
 on:
   release:
-    types: [published]
+    types: [ published ]
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: "Change version in manifest"
+        run: |
+          jq '.version_number = "$(echo "${{ github.ref_name }}" | sed -e "s/^v//")' manifest.json > manifest.json
       - name: "Zip package"
         run: |
           zip -r ${{ github.event.repository.name }}-${{ github.ref_name }}.zip . -x ".git/*" ".github/*"
