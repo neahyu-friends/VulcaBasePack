@@ -7,8 +7,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      # Use checkout to publish the files in your repo
       - uses: actions/checkout@v3
+      - name: "Zip package"
+        run: |
+          zip -r ${{ github.event.repository.name }}-${{ github.ref_name }}.zip . -x ".git/*" ".github/*"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip
       - uses: GreenTF/upload-thunderstore-package@v4.3
         with:
           namespace: neahyu_friends
@@ -17,5 +23,6 @@ jobs:
           version: ${{ github.ref_name }}
           community: lethal-company
           repo: thunderstore.io
+          file: ${{ github.event.repository.name }}-${{ github.ref_name }}.zip 
           categories: |
             modpacks
