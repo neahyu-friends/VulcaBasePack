@@ -1,6 +1,6 @@
 {
     "name": "VulcaBasePack",
-    "version_number": "MODPACK_VERSION",
+    "version_number": "",
     "website_url": "https://github.com/neahyu-friends/VulcaBasePack",
     "description": "Take my (base) modpack",
     "dependencies": [
