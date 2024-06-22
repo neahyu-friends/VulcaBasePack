@@ -5,7 +5,6 @@
     "description": "Take my (base) modpack",
     "dependencies": [
         "AllToasters-SpectateEnemies-2.4.1",
-        "anormaltwig-LateCompany-1.0.13",
         "Renegades-FlashlightToggle-1.5.0",
 		"Renegades-WalkieUse-1.5.0",
         "RickArg-Helmet_Cameras-2.1.5",
@@ -19,6 +18,7 @@
 		"DeathGOD7-LCItemValue-1.0.0",
 		"tinyhoot-ShipLoot-1.1.0",
 		"Saradora-ScanTweaks-1.5.3",
+		"PopleZoo-BetterItemScan-3.0.2",
 		
 		"AMRV-LethalCompanyVariables-2.3.2",
 		"4902-Random_Moons-1.0.1",
