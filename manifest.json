@@ -4,27 +4,27 @@
     "website_url": "https://github.com/neahyu-friends/VulcaBasePack",
     "description": "Take my (base) modpack",
     "dependencies": [
-        "AllToasters-SpectateEnemies-2.4.1",
-        "Renegades-FlashlightToggle-1.5.0",
+       		"AllToasters-SpectateEnemies-2.6.0",
+        	"Renegades-FlashlightToggle-1.5.0",
 		"Renegades-WalkieUse-1.5.0",
-        "RickArg-Helmet_Cameras-2.1.5",
+        	"RickArg-Helmet_Cameras-2.1.5",
 
 		"AlexCodesGames-AdditionalSuits-2.0.0",
 		"x753-More_Suits-1.4.3",
-		"Hexnet111-SuitSaver-1.2.0",
-		"Sligili-More_Emotes-1.3.3",
-		"FlipMods-TooManyEmotes-2.1.19",
+		"Hexnet111-SuitSaver-1.2.1",
+		"KlutzyBubbles-BetterEmotes-1.5.4",
+		"FlipMods-TooManyEmotes-2.2.7",
 
 		"DeathGOD7-LCItemValue-1.0.0",
 		"tinyhoot-ShipLoot-1.1.0",
-		"Saradora-ScanTweaks-1.5.3",
+		"Saradora-ScanTweaks-1.7.0",
 		"PopleZoo-BetterItemScan-3.0.2",
 		
-		"AMRV-LethalCompanyVariables-2.3.2",
-		"4902-Random_Moons-1.0.1",
-		"SylviBlossom-SmartItemSaving-1.2.2",
-		"SafeCharity-ShrimpleAsThat-1.1.2",
-		"EliteMasterEric-Coroner-1.6.2",
+		"AMRV-LethalCompanyVariables-2.6.4",
+		"4902-Random_Moons-1.4.1",
+		"SylviBlossom-SmartItemSaving-1.2.4",
+		"SafeCharity-ShrimpleAsThat-1.2.0",
+		"EliteMasterEric-Coroner-2.2.0",
 		"willis81808-LethalSettings-1.4.0"
     ]
 }
